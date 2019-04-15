@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="SDWebImage.Forms.Sample.Views.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="GlideX.Forms Sample">
+    <StackLayout Padding="5">
+        <Button Clicked="GridOnlyRemote_Clicked" Text="Grid Only Remote Example" />
+        <Button Clicked="Grid_Clicked" Text="Grid Example" />
+        <Button Clicked="Edge_Clicked" Text="Edge Cases" />
+        <Button Clicked="ViewCell_Clicked" Text="ViewCells" />
+        <Button Clicked="ImageCell_Clicked" Text="ImageCells" />
+        <Button Clicked="HugeImage_Clicked" Text="Huge Images" />
+        <Button Clicked="ToggleImages_Clicked" Text="Toggle Images" />
+        <Button Clicked="ToggleImagesMaterial_Clicked" Text="Toggle Images Material" />
+    </StackLayout>
+</ContentPage>

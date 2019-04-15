@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+
+  <metadata>
+
+    <id>FFImageLoading.ImageSourceHandler</id>
+    <version>$version$</version>
+    <copyright>Sharpnado 2019</copyright>
+    <title>An iOS image caching implementation for Xamarin.Forms IImageSourceHandler</title>
+    <authors>Jean-Marie Alfonsi</authors>
+    <owners></owners>
+    <projectUrl>https://github.com/roubachof/Xamarin.Forms.ImageSourceHandlers</projectUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/596903?s=460&amp;v=4</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <repository url="https://github.com/roubachof/Xamarin.Forms.ImageSourceHandlers" />
+
+    <summary>GlideX.Forms + FFImageLoading.ImageSourceHandler = complete image caching solution for Xamarin.Forms without changing any line of your current project</summary>
+
+    <tags>xamarin.forms ios image caching ffimageloading glidex</tags>
+
+    <description>
+This repository was inspired by Jonathan Peppers GlideX implementation of the new IImageViewHandler interface for Xamarin.Forms (https://github.com/jonathanpeppers/glidex).
+
+Its goal is to provide the same kind of implementation for iOS, achieving a complete image caching solution for Xamarin.Forms: you don't have to change any line of your existing project, the Xamarin.Forms image source handlers will just be overridden with cache-enabled ones.
+
+On iOS the ImageSourceHandler is implemented with FFImageLoading (https://github.com/luberda-molinet/FFImageLoading).
+
+IMPORTANT: On iOS projects, call FFImageLoading.FormsHandler.Init() after Xamarin.Forms.Forms.Init() and before LoadApplication(new App()).
+    </description>
+
+    <dependencies>
+      <group>
+        <dependency id="Xamarin.Forms" version="2.5.1" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.FFImageLoading" version="2.4.4.859" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+
+  </metadata>
+
+  <files>
+    <!--Xamarin.iOS-->
+    <file src="FFImageLoading.ImageSourceHandler\bin\Release\FFImageLoading.ImageSourceHandler.dll"
+          target="lib\Xamarin.iOS10\FFImageLoading.ImageSourceHandler.dll" />
+    <file src="FFImageLoading.ImageSourceHandler\bin\Release\FFImageLoading.ImageSourceHandler.pdb"
+          target="lib\Xamarin.iOS10\FFImageLoading.ImageSourceHandler.pdb" />
+  </files>
+
+</package>
