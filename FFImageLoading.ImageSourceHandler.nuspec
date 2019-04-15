@@ -10,10 +10,10 @@
     <title>An iOS image caching implementation for Xamarin.Forms IImageSourceHandler</title>
     <authors>Jean-Marie Alfonsi</authors>
     <owners></owners>
+    <license type="file">LICENSE</license>
     <projectUrl>https://github.com/roubachof/Xamarin.Forms.ImageSourceHandlers</projectUrl>
     <iconUrl>https://avatars3.githubusercontent.com/u/596903?s=460&amp;v=4</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <repository url="https://github.com/roubachof/Xamarin.Forms.ImageSourceHandlers" />
 
     <summary>GlideX.Forms + FFImageLoading.ImageSourceHandler = complete image caching solution for Xamarin.Forms without changing any line of your current project</summary>
 
@@ -44,6 +44,9 @@ IMPORTANT: On iOS projects, call FFImageLoading.FormsHandler.Init() after Xamari
           target="lib\Xamarin.iOS10\FFImageLoading.ImageSourceHandler.dll" />
     <file src="FFImageLoading.ImageSourceHandler\bin\Release\FFImageLoading.ImageSourceHandler.pdb"
           target="lib\Xamarin.iOS10\FFImageLoading.ImageSourceHandler.pdb" />
+
+    <!--License-->
+    <file src="LICENSE" target="LICENSE" />
   </files>
 
 </package>
