@@ -1,5 +1,7 @@
 # FFImageLoading.ImageSourceHandler
 
+![Nuget](https://img.shields.io/nuget/v/FFImageLoading.ImageSourceHandler.svg)
+
 This repository was inspired by Jonathan Peppers ```GlideX``` implementation of the new ```IImageViewHandler``` interface for ```Xamarin.Forms``` (https://github.com/jonathanpeppers/glidex).
 
 Its goal is to provide the same kind of implementation for ```iOS```, achieving a complete image caching solution for ```Xamarin.Forms```: you don't have to change any line of your existing project, the ```Xamarin.Forms``` image source handlers will just be overridden with cache-enabled ones.
