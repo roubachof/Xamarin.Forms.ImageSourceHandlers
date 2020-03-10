@@ -1,3 +1,7 @@
+# Warning: obsolete repository
+
+This repository has been deprecated in favor of https://github.com/roubachof/Xamarin.Forms.Nuke
+
 # FFImageLoading.ImageSourceHandler
 
 ![Nuget](https://img.shields.io/nuget/v/FFImageLoading.ImageSourceHandler.svg)
